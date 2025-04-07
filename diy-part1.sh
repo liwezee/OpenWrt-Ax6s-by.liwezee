@@ -12,7 +12,6 @@
 
 # Uncomment a feed source
  sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
- rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd*,miniupnpd-iptables,wireless-regdb}
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
